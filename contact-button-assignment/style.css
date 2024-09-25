@@ -1,0 +1,46 @@
+/*
+MY COLOR PALETTE
+pink -f1c8db
+mauve - #b88c9e
+dark purple - #704c5e
+green - #88a09e
+forest green - #558b6e
+*/
+
+body {
+    background-color: #f1c8db;   
+    text-align: center;
+}
+
+
+    
+button{
+    background-color: #704c5e;
+    color: #88a09e   
+    font-family: "Poppins", sans-serif;  
+    font-weight:300;
+    width:200px;
+    padding:10px;
+    margin-top:50px; 
+    border:none;
+    
+}
+
+
+
+button:hover {
+    background-color:#558b6e;
+       
+}
+
+
+
+h1 {
+    font-family: "Abril Fatface", serif;      
+}
+
+h2 {
+     font-family: "Poppins", sans-serif;
+    
+    
+}
