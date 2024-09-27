@@ -1,42 +1,44 @@
 /*
 MY COLOR PALETTE
-pink -f1c8db
-mauve - #b88c9e
-dark purple - #704c5e
-green - #88a09e
-forest green - #558b6e
+Hot pink #ec058e
+Turquoise #62bbc1
+White - #fffbfc
+Grey - #30332e
+Black - #010400
 */
 
 body {
-    background-color: #f1c8db;   
+    background-color: #62bbc1;   
     text-align: center;
 }
 
 
     
 button{
-    background-color: #704c5e;
-    color: #88a09e   
+    background-color: #010400;
+    color: #fffbfc;  
     font-family: "Poppins", sans-serif;  
     font-weight:300;
     width:200px;
     padding:10px;
     margin-top:50px; 
     border:none;
+    border-radius:12px;
     
 }
 
 
 
 button:hover {
-    background-color:#558b6e;
+    background-color:#30332e;
        
 }
 
 
 
 h1 {
-    font-family: "Abril Fatface", serif;      
+    font-family: "Abril Fatface", serif;    
+    
 }
 
 h2 {
