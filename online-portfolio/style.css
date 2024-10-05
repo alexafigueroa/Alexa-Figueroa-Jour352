@@ -1,12 +1,16 @@
 img {
-    width:200%
+    width:197%;
+    position: relative;
+    bottom: 100px;
+
+    
 }
 
 h1 {
     font-family: "cinzel", serif;
     color:white;
     padding-left: 80px;
-     padding-top: 50px;
+    padding-top: 100px;
 }
 
 h2{
@@ -24,8 +28,8 @@ button  {
   border: none;
   color: black; 
   text-align: center;
-    font-size: 20px;
-    font-family:"lora", sand pro;
+  font-size: 20px;
+ font-family:"lora", sand pro;
     width: 250px;
     float: left;
     position: relative;
@@ -35,9 +39,8 @@ button  {
 
 .col-sm-2 {
    float:right; 
+}
+    
     
 }
     
-
-    
-}
