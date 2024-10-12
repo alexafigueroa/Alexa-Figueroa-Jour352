@@ -1,7 +1,7 @@
 img {
     width: 197%;
     position: relative;
-    bottom: 40px;
+    bottom:100px;
 }
 
 h1 {
@@ -24,13 +24,15 @@ h4 {
  color: white;
 text-decoration: underline;
 text-decoration-color: #9a6951;
+margin-left: 80px;
 }
 
 
 
-.col-sm-6{
+.col-sm-6 {
 color:white;
 font-family:"lora", sand pro; 
+margin-left: 80px;
 }
 
 
@@ -63,12 +65,32 @@ button {
 #navigation {
     color: #e4d0bc;
     text-align: center;
-    font-family:
-        "lora",
-        sand pro;
+    font-family: "lora", sand pro;
+    margin-top: 30px;
 }
 
+#articles {
+margin-top: 600 px;
+grid-template-columns: auto
+  
+
     
+    
+ 
+
+     
+}
+
+
+
+
+
+
+
+
+
+    
+}
     
 
 
