@@ -24,7 +24,7 @@ h4 {
  color: white;
 text-decoration: underline;
 text-decoration-color: #9a6951;
-margin-left: 80px;
+margin-left: 59px;
 }
 
 
@@ -32,7 +32,7 @@ margin-left: 80px;
 .col-sm-6 {
 color:white;
 font-family:"lora", sand pro; 
-margin-left: 80px;
+padding-left: 80px;
 }
 
 
@@ -69,42 +69,22 @@ button {
     margin-top: 30px;
 }
 
-#articles {
-margin-top: 600 px;
-grid-template-columns: auto
-  
+.img-gallery {
+width: 100.00%;
+float:left;
+text-align:left;
+display: flex;
+    
+}
 
-    
-    
- 
+ .img-gallery img {   
+width: 90%;
+height:100%;
+margin-top: 110px;
+border: 10px solid #e4d0bc;
+
+
+}
 
      
-}
-
-
-
-
-
-
-
-
-
-    
-}
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  .jobtitle {
-}
-    */
+     
