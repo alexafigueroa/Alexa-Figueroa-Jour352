@@ -40,7 +40,17 @@ font-weight: bold;
 p {
    font-family: lora, open sans, sans-serif;    
 }
-
+    
+blockquote {
+    margin: 20px 50px 30px;
+    padding-left: 20px;
+    border-left: 8px solid #ff0000;
+}
+blockquote p {	
+    font-size: 45px;
+    line-height: 1.5;
+    font-family: lora, open sans, sans-serif;
+}
 
 
 p{
