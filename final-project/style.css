@@ -1,80 +1,93 @@
 @media {
+    img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-img {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+    #topper2 {
+        background-image: url(Header%20photo.jpg.webp);
+        background-size: cover;
+        background-position:center;
+        height: 100vh;
+    }
 
-#topper2{
-    background-image: url(Header%20photo.jpg.webp);
-    background-size:cover;
-    height:100vh;
-}
+    h1 {
+        margin: 50px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-family:
+            lora,
+            open sans,
+            sans-serif;
+    }
 
-h1 {
-margin:50px; 
-color:white;
-padding:20px;
-text-align: center; 
-font-family: lora, open sans, sans-serif;
-}
+    h3 {
+        font-family:
+            lora,
+            open sans,
+            sans-serif;
+        color: white;
+        margin-top: 500px;
+    }
 
-h3 {
-font-family: lora, open sans, sans-serif;
-color:white; 
-margin-top: 500px; 
-}
+    .caption {
+        color: grey;
+        font-family: "Noto Serif Georgian", serif;
+        padding: 8px;
+        text-align: center;
+    }
 
-.caption {
- color:grey;  
-font-family: "Noto Serif Georgian", serif;  
-padding: 8px;
-text-align:center;
-}
+    h2 {
+        font-family:
+            lora,
+            open sans,
+            sans-serif;
+        font-weight: bold;
+    }
 
-h2 {
-font-family: lora, open sans, sans-serif; 
-font-weight: bold;
-}
+    p {
+        font-family:
+            lora,
+            open sans,
+            sans-serif;
+    }
 
-
-p {
-   font-family: lora, open sans, sans-serif;    
-}
-    
-blockquote {
-    margin: 20px 50px 30px;
-    padding-left: 20px;
-    border-left: 8px solid #ff0000;
-}
-blockquote p {	
-    font-size: 45px;
-    line-height: 1.5;
-    font-family: lora, open sans, sans-serif;
-}
+    .pullquote {
+        margin: 20px 50px 30px;
+        padding-left: 20px;
+        border-left: 8px solid #ff0000;
+    }
+    .pullquote p {
+        font-size: 45px;
+        line-height: 1.5;
+        font-family:
+            lora,
+            open sans,
+            sans-serif;
+    }
     .content {
-       width:100%;
-        margin:auto;
-        
+        width: 100%;
+        margin: auto;
     }
 
-p{
-font-family: open sans, sans-serif;    
-    
-}
- }
-
-@media (min-width:576px) {
-.content {
-        width:60%;
-        }
+    p {
+        font-family:
+            open sans,
+            sans-serif;
     }
-    
-    @media (min-width:768px);
-.content {
-    width:50%; 
 }
 
+@media (min-width: 576px) {
+    .content {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 50%;
+    }
+}
