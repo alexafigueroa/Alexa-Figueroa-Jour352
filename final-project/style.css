@@ -16,12 +16,13 @@
     h1 {
         margin: 50px;
         color: white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
         font-family:
             lora,
             open sans,
             sans-serif;
+          font-size: 53px;
     }
 
     h3 {
@@ -30,7 +31,8 @@
             open sans,
             sans-serif;
         color: white;
-        margin-top: 620px;
+        margin-top: 515px;
+        text-align: center;
     }
 
     .caption {
@@ -58,7 +60,7 @@
     .pullquote {
         margin: 20px 50px 30px;
         padding-left: 20px;
-        border-left: 8px solid #ff0000;
+        border-left: 8px solid #000080;
     }
     .pullquote p {
         font-size: 45px;
