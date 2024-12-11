@@ -9,7 +9,7 @@
     #topper2 {
         background-image: url(Header%20photo.jpg.webp);
         background-size: cover;
-        background-position:center;
+        background-position: center;
         height: 100vh;
     }
 
@@ -22,9 +22,9 @@
             lora,
             open sans,
             sans-serif;
-          font-size: auto;
+        font-size: auto;
     }
-    
+
     h2 {
         font-family:
             lora,
@@ -42,25 +42,20 @@
         text-align: center;
         padding-top: 20px;
         padding-bottom: 10px;
-       
-          
     }
-    
-     p {
+
+    p {
         font-family:
             lora,
             open sans,
-            sans-serif;   
+            sans-serif;
     }
-    
-
 
     .caption {
         color: grey;
         font-family: "Noto Serif Georgian", serif;
         padding: 8px;
         text-align: center;
-    
     }
 
     .subcaption {
@@ -68,9 +63,8 @@
         font-family:
             lora,
             open sans,
-            sans-serif;  
+            sans-serif;
     }
-
 
     .pullquote {
         margin: 20px 50px 30px;
@@ -89,7 +83,6 @@
         width: 100%;
         margin: auto;
     }
-   
 }
 
 @media (min-width: 576px) {
@@ -97,30 +90,24 @@
         width: 60%;
     }
     h1 {
-      font-size: 53px;
-}
-     .pullquote p {
-        font-size: 30px;
-        }
-    
-     
-
-
-@media (min-width: 768px) {
-    .content {
-        width: 50%;
-         }
+        font-size: 53px;
+    }
     .pullquote p {
-        font-size: 20px;   
+        font-size: 30px;
     }
 
-    
-    @media (min-width: 991px) {
-       
-         .pullquote p {
-        font-size: 20px;
+    @media (min-width: 768px) {
+        .content {
+            width: 50%;
+        }
+        .pullquote p {
+            font-size: 20px;
+        }
+
+        @media (min-width: 992px) {
+            .pullquote p {
+                font-size: 20px;
+            }
+        }
     }
-       
-        
-}
 }
