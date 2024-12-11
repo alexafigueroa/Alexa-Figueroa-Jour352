@@ -38,11 +38,11 @@
             lora,
             open sans,
             sans-serif;
-        color: white;
+        color: black;
         text-align: center;
-        vertical-align: baseline;
-        padding-top: 515px;
-    
+        padding-top: 20px;
+        padding-bottom: 10px;
+       
           
     }
     
@@ -60,8 +60,16 @@
         font-family: "Noto Serif Georgian", serif;
         padding: 8px;
         text-align: center;
+    
     }
 
+    .subcaption {
+        color: grey;
+        font-family:
+            lora,
+            open sans,
+            sans-serif;  
+    }
 
 
     .pullquote {
@@ -94,10 +102,7 @@
      .pullquote p {
         font-size: 30px;
         }
-    h3 {
-         padding-top: 316px;   
-            
-        }
+    
      
 
 
@@ -108,19 +113,14 @@
     .pullquote p {
         font-size: 20px;   
     }
-     h3 {
-         padding-top: 384px;   
 
-        }
     
     @media (min-width: 991px) {
        
          .pullquote p {
         font-size: 20px;
     }
-        h3 {
-            padding-top: 450px;
-        }
+       
         
 }
 }
